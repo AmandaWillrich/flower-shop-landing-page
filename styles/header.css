@@ -1,0 +1,19 @@
+.height-9 {
+	height: 9rem;
+}
+
+.nav-item {
+	margin-right: 4rem;
+}
+
+.logo-svg {
+	width: 4rem;
+}
+
+.nav-item a {
+	padding: 1rem 0 1rem 0;
+}
+
+.nav-item:hover {
+	opacity: 0.8;
+}

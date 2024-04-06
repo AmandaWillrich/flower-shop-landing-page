@@ -1,0 +1,58 @@
+@import url(styles/main-styles.css);
+@import url(styles/header.css);
+@import url(styles/hero-section.css);
+
+:root {
+	--main-green: #4B4F3E;
+	--secondary-green: #E2E6D7;
+	--light-grey: #F8F9FA;
+	--beige: #DECAB2;
+}
+
+html {
+	/* transforms rem in px */
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--light-grey);
+	font-family: "EB Garamond", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2.4rem;
+	color: var(--main-green);
+}
+
+a {
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 6.104rem;
+}
+
+h2 {
+	font-size: 4.883rem;
+}
+
+h3 {
+	font-size: 3.906rem;
+}
+
+h4 {
+	font-size: 3.125rem;
+}
+
+h5 {
+	font-size: 2.5rem;
+}
+
+h6 {
+	font-size: 2.0rem;
+}
+
+p {
+	font-size: 1.6rem;
+}

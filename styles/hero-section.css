@@ -1,0 +1,40 @@
+.hero-email-input {
+    padding: 0.8rem 1.6rem;
+    width: 75%;
+    border: solid 0.2rem var(--main-green);
+    border-right: none;
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    color: var(--main-green);
+    margin-right: -0.5rem;
+}
+
+.hero-section-height-100vh {
+	height: calc(100vh - 9rem);
+}
+
+.hero-img-div {
+    overflow: hidden;
+}
+
+.hero-img {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.hero-title {
+    line-height: 5.7rem;
+    letter-spacing: -0.15rem;
+}
+
+.hero-btn {
+    padding: 1rem 2rem;
+    border: solid 0.2rem var(--main-green);
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    margin-left: 0;
+}
+
+.hero-svg {
+    color: var(--light-grey);
+}
