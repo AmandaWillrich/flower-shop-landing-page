@@ -1,0 +1,11 @@
+#our-clients {
+    background: linear-gradient(180deg, rgba(226,230,215,1) 0%, rgba(248,249,250,1) 40%);
+}
+
+.card-info {
+    max-width: 31rem;
+}
+
+.card-info-last {
+    max-width: 38rem;
+}

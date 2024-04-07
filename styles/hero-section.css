@@ -1,3 +1,7 @@
+#hero-section {
+    background: linear-gradient(0deg, rgba(226,230,215,1) 0%, rgba(248,249,250,1) 40%);
+}
+
 .hero-email-input {
     padding: 0.8rem 1.6rem;
     width: 75%;
@@ -14,12 +18,10 @@
 }
 
 .hero-img-div {
-    overflow: hidden;
-}
-
-.hero-img {
+    background-image: url('../assets/imgs/hero-section.png');
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
+    max-width: 100%;
 }
 
 .hero-title {

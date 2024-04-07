@@ -1,6 +1,9 @@
 @import url(styles/main-styles.css);
 @import url(styles/header.css);
 @import url(styles/hero-section.css);
+@import url(styles/our-services.css);
+@import url(styles/our-clients.css);
+@import url(styles/our-services.css);
 
 :root {
 	--main-green: #4B4F3E;
@@ -25,7 +28,8 @@ body {
 	color: var(--main-green);
 }
 
-a {
+a, a:visited, a:link {
+	color: var(--main-green);
 	cursor: pointer;
 }
 

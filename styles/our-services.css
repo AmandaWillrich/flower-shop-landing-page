@@ -1,0 +1,11 @@
+#our-services {
+    background-color: var(--secondary-green);
+}
+
+.our-services-title {
+    padding-top: 5rem;
+}
+
+.card-info-title {
+    padding: 1rem;
+}
