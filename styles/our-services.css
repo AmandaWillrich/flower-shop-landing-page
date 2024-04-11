@@ -6,3 +6,8 @@
 .card-info-title {
     padding: 1rem;
 }
+
+.place-order-btn {
+    border: solid 0.2rem var(--light-grey);
+    border-radius: 0.7rem;
+}

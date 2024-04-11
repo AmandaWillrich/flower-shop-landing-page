@@ -6,6 +6,10 @@
     max-width: 100%;
 }
 
+#form-textarea {
+    resize: none;
+}
+
 .submit-btn {
     border: solid 0.2rem var(--main-green);
     border-radius: 0.7rem;

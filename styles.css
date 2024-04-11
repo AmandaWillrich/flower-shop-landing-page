@@ -30,6 +30,19 @@ body {
 	color: var(--main-green);
 }
 
+input::placeholder, 
+textarea::placeholder,
+input, textarea,
+button {
+	font-family: "EB Garamond", serif;
+	font-weight: 400;
+}
+
+button {
+	font-weight: 500;
+	font-size: 1.8rem;
+}
+
 a, a:visited, a:link {
 	color: var(--main-green);
 	cursor: pointer;
