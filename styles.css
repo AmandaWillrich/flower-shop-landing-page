@@ -4,12 +4,14 @@
 @import url(styles/our-services.css);
 @import url(styles/our-clients.css);
 @import url(styles/our-services.css);
+@import url(styles/contact-us.css);
+@import url(styles/footer.css);
 
 :root {
 	--main-green: #4B4F3E;
 	--secondary-green: #E2E6D7;
 	--light-grey: #F8F9FA;
-	--beige: #DECAB2;
+	--salmon: #DECAB2;
 }
 
 html {
@@ -59,4 +61,16 @@ h6 {
 
 p {
 	font-size: 1.6rem;
+}
+
+input, textarea {
+	padding: 0.8rem 1.6rem;
+    border: solid 0.2rem var(--main-green);
+    border-radius: 0.7rem;
+    color: var(--main-green);
+    margin-right: -0.5rem;
+}
+
+textarea {
+	height: 20rem;
 }

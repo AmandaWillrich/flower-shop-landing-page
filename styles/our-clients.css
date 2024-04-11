@@ -1,5 +1,6 @@
 #our-clients {
     background: linear-gradient(180deg, rgba(226,230,215,1) 0%, rgba(248,249,250,1) 40%);
+    padding-top: 5rem;
 }
 
 .card-info {
@@ -8,4 +9,40 @@
 
 .card-info-last {
     max-width: 38rem;
+}
+
+.avatar {
+    width: 9rem;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+
+.costumer-name {
+    padding-bottom: 1rem;
+}
+
+#testimonials div {
+    width: 31rem;
+}
+
+.our-clients-title {
+    padding-bottom: 5rem;/
+}
+
+.image-bg-div {
+    background-image:linear-gradient(
+          rgba(0, 0, 0, 0.55), 
+          rgba(0, 0, 0, 0.55)
+        ), url('../assets/imgs/gardening-bg.jpg');
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.call-to-action-title {
+    padding: 3rem 6rem;
+}
+
+.call-to-action-subtitle {
+    padding-bottom: 3rem;
 }

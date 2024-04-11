@@ -1,5 +1,6 @@
 #hero-section {
     background: linear-gradient(0deg, rgba(226,230,215,1) 0%, rgba(248,249,250,1) 40%);
+    padding-bottom: 5rem;
 }
 
 .hero-email-input {
@@ -13,7 +14,7 @@
     margin-right: -0.5rem;
 }
 
-.hero-section-height-100vh {
+.hero-section-height-100 {
 	height: calc(100vh - 9rem);
 }
 

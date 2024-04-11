@@ -13,7 +13,6 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<!-- <body class="relative"> -->
 <body>
 	<nav class="nav-bar pl-20 pr-20 flex f-justify-space-between f-align-center">
 		<div>
@@ -41,10 +40,10 @@
 	<section id="hero-section" class="flex f-align-center">
 		<div class="text-container width-53">
 			<div class="pl-20 pr-20">
-				<h1 class="hero-title bold-900 pb-30">Apaixonados por trazer a natureza para dentro dos lares</h1>
+				<h1 class="hero-title bold-900 pb-30">Apaixonados por trazer<br />a natureza para dentro<br />dos lares</h1>
 				<p class="font-20 pb-10">Inscreva-se em nossa newsletter</p>
 				<div class="flex">
-					<input id="hero-email-input" class="hero-email-input font-20" type="text" placeholder="Digite seu e-mail" />
+					<input id="hero-email-input" class="hero-email-input font-20" type="email" placeholder="Digite seu e-mail" />
 					<button id="hero-btn" class="main-btn hero-btn">
 						<svg class="hero-svg" xmlns="http://www.w3.org/2000/svg" width="1.6rem" height="1.6rem" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
 							<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
@@ -54,11 +53,11 @@
 			</div>
 		</div>
 		<div class="img-container width-47">
-			<div class="hero-img-div hero-section-height-100vh">
+			<div class="hero-img-div hero-section-height-100">
 			</div>
 		</div>
 	</section>
-	<section id="our-services" class="height-100vh pl-20 pr-20">
+	<section id="our-services" class="height-100 pl-20 pr-20">
 		<h2 class="our-services-title bold-700 text-center">Nossos Serviços</h2>
 		<div class="grid grid-3-co text-center">
 			<div class="card-info center-item">
@@ -171,10 +170,71 @@
 			</div>
 		</div>
 	</section>
-	<section id="our-clients" class="height-100vh">
+	<section id="our-clients" class="height-100">
+		<h2 class="our-clients-title bold-700 text-center">Nossos Clientes</h2>
+		<div id="testimonials" class="flex text-center f-justify-space-between gap-7 pl-20 pr-20 pb-30">
+			<div>
+				<img class="avatar" src="./assets/imgs/avatar-1.png" alt="Costumer">
+				<h6 class="costumer-name big">Maria, São Paulo</h6>
+				<h6 class="italic big">"A Encanto Verde me ajudou a transformar meu jardim em um verdadeiro paraíso. As plantas são de alta qualidade e o
+					atendimento é excelente!"</h6>
+			</div>
+			<div>
+				<img class="avatar" src="./assets/imgs/avatar-2.png" alt="Costumer">
+				<h6 class="costumer-name big">Pedro, Rio de Janeiro</h6>
+				<h6 class="italic big">"Encontrei tudo o que precisava para o meu pequeno apartamento. As suculentas e vasos são perfeitos para decorar
+					espaços pequenos."</h6>
+			</div>
+			<div>
+				<img class="avatar" src="./assets/imgs/avatar-3.png" alt="Costumer">
+				<h6 class="costumer-name big">Antônio, Santa Catarina</h6>
+				<h6 class="italic big">"Transformaram meu jardim em um verdadeiro paraíso floral. A equipe foi extremamente atenciosa desde o primeiro
+					contato até a conclusão do projeto."</h6>
+			</div>
+		</div>
+		<div class="image-bg-div text-center">
+			<h2 class="text-secondary-green call-to-action-title">Transforme seu espaço<br /> com a beleza da natureza</h2>
+			<h3 class="text-secondary-green call-to-action-subtitle">Faça seu pedido agora e deixe a Encanto Verde<br />trazer vida e cor para o seu ambiente.</h3>
+			<button class="secondary-btn text-main-green" style="margin-bottom: 5rem;">FAZER PEDIDO</button>
+		</div>
 	</section>
-	<section id="contact-us" class="height-100vh">
+	<section id="contact-us" class="height-100 flex">
+		<div id="contact-us-left" class="width-53 flex f-justify-center f-align-center">
+			<div class="salmon-rectangle"></div>
+		</div>
+		<div id="contact-us-right" class="width-47 pl-20 pr-20">
+			<form class="contact-form flex f-column gap-4" action="submit">
+				<div class="follow-us">
+					<h6>Siga nossas redes:</h6>
+					<div class="flex">
+						<div class="social-media">
+							<svg width="30" height="auto" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M30 15C30 6.71484 23.2852 0 15 0C6.71484 0 0 6.71484 0 15C0 22.0312 4.8457 27.9375 11.3789 29.5605V19.582H8.28516V15H11.3789V13.0254C11.3789 7.92188 13.6875 5.55469 18.7031 5.55469C19.6523 5.55469 21.293 5.74219 21.9668 5.92969V10.0781C21.6152 10.043 21 10.0195 20.2324 10.0195C17.7715 10.0195 16.8223 10.9512 16.8223 13.3711V15H21.7207L20.877 19.582H16.8164V29.8887C24.2461 28.9922 30 22.6699 30 15Z" fill="var(--main-green)"/>
+							</svg>
+						</div>
+						<div class="social-media">
+							<svg width="30" height="auto" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M30 14.1223C27.0509 14.1286 24.1743 13.2037 21.7768 11.4781V23.508C21.7761 25.7359 21.0984 27.9106 19.8342 29.7411C18.5701 31.5716 16.7798 32.9706 14.7029 33.7512C12.6259 34.5317 10.3612 34.6564 8.21179 34.1087C6.06233 33.5611 4.13056 32.367 2.67481 30.6864C1.21907 29.0057 0.308768 26.9185 0.0656481 24.704C-0.177472 22.4894 0.258183 20.2531 1.31435 18.294C2.37051 16.335 3.99683 14.7467 5.9758 13.7414C7.95477 12.7362 10.192 12.3621 12.3884 12.669V18.7176C11.3841 18.3999 10.3056 18.4092 9.3069 18.7441C8.30818 19.079 7.44031 19.7224 6.82721 20.5824C6.21411 21.4424 5.88712 22.475 5.89294 23.5328C5.89876 24.5907 6.23709 25.6196 6.85962 26.4727C7.48214 27.3259 8.35704 27.9596 9.35938 28.2834C10.3617 28.6071 11.4403 28.6045 12.441 28.2757C13.4417 27.9469 14.3135 27.3089 14.9318 26.4526C15.5501 25.5964 15.8833 24.5658 15.8839 23.508V0H21.7768C21.7735 0.500748 21.8161 1.00074 21.904 1.49364C22.109 2.59234 22.5347 3.63751 23.1553 4.56527C23.7759 5.49304 24.5783 6.28392 25.5134 6.88957C26.8445 7.77286 28.4048 8.24317 30 8.24191V14.1223Z" fill="var(--main-green)"/>
+							</svg>
+						</div>
+						<div class="social-media">
+							<svg width="30" height="auto" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M15.0033 7.30675C10.7468 7.30675 7.31344 10.7401 7.31344 14.9967C7.31344 19.2532 10.7468 22.6866 15.0033 22.6866C19.2599 22.6866 22.6933 19.2532 22.6933 14.9967C22.6933 10.7401 19.2599 7.30675 15.0033 7.30675ZM15.0033 19.9961C12.2526 19.9961 10.0039 17.754 10.0039 14.9967C10.0039 12.2393 12.246 9.99721 15.0033 9.99721C17.7607 9.99721 20.0028 12.2393 20.0028 14.9967C20.0028 17.754 17.754 19.9961 15.0033 19.9961ZM24.8015 6.99219C24.8015 7.9894 23.9983 8.78584 23.0078 8.78584C22.0106 8.78584 21.2142 7.98271 21.2142 6.99219C21.2142 6.00167 22.0173 5.19855 23.0078 5.19855C23.9983 5.19855 24.8015 6.00167 24.8015 6.99219ZM29.8946 8.8126C29.7808 6.40993 29.232 4.28165 27.4718 2.52817C25.7183 0.774679 23.5901 0.225878 21.1874 0.10541C18.7111 -0.0351366 11.2889 -0.0351366 8.8126 0.10541C6.41662 0.219186 4.28834 0.767987 2.52817 2.52147C0.767987 4.27496 0.225878 6.40323 0.10541 8.80591C-0.0351366 11.2822 -0.0351366 18.7044 0.10541 21.1807C0.219186 23.5834 0.767987 25.7117 2.52817 27.4651C4.28834 29.2186 6.40993 29.7674 8.8126 29.8879C11.2889 30.0284 18.7111 30.0284 21.1874 29.8879C23.5901 29.7741 25.7183 29.2253 27.4718 27.4651C29.2253 25.7117 29.7741 23.5834 29.8946 21.1807C30.0351 18.7044 30.0351 11.2889 29.8946 8.8126ZM26.6955 23.8377C26.1735 25.1495 25.1629 26.1601 23.8444 26.6888C21.8701 27.4718 17.1852 27.2911 15.0033 27.2911C12.8215 27.2911 8.12995 27.4651 6.1623 26.6888C4.85053 26.1668 3.83993 25.1562 3.31121 23.8377C2.52817 21.8634 2.70887 17.1785 2.70887 14.9967C2.70887 12.8148 2.53486 8.12326 3.31121 6.15561C3.83324 4.84384 4.84384 3.83324 6.1623 3.30452C8.13664 2.52147 12.8215 2.70217 15.0033 2.70217C17.1852 2.70217 21.8767 2.52816 23.8444 3.30452C25.1562 3.82655 26.1668 4.83714 26.6955 6.15561C27.4785 8.12995 27.2978 12.8148 27.2978 14.9967C27.2978 17.1785 27.4785 21.8701 26.6955 23.8377Z" fill="var(--main-green)"/>
+							</svg>	
+						</div>
+					</div>
+				</div>
+				<h2 class="contact-us-title bold-700">Entre em contato</h2>
+				<input id="" class="font-20" type="text" placeholder="Título" />
+				<input id="" class="font-20" type="text" placeholder="Nome" />
+				<input id="" class="font-20" type="email" placeholder="E-mail" />
+				<textarea id="" class="font-20" type="textbox" placeholder="Escreva sua mensagem"></textarea>
+				<button class="main-btn submit-btn">ENVIAR</button>
+			</form>
+		</div>
 	</section>
+	<footer>
+		<h6>© Todos os Direitos Reservados, 2024</h6>
+	</footer>
 </body>
-
 </html>

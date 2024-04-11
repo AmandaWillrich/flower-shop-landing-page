@@ -1,0 +1,45 @@
+#contact-us-left {
+    background-image: url('../assets/imgs/contact-us-img.png');
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.submit-btn {
+    border: solid 0.2rem var(--main-green);
+    border-radius: 0.7rem;
+}
+
+.salmon-rectangle {
+    background-color: var(--salmon);
+    height: 65rem;
+    width: 50rem;
+    z-index: -2;
+}
+
+.contact-form {
+    padding-bottom: 15rem;
+}
+
+.social-media {
+    padding: .5rem .8rem;
+    margin-right: 0.5rem;
+    background-color: #DEE2E6;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.social-media:hover {
+    opacity: 0.8;
+	transition: 0.3s;
+}
+
+.follow-us {
+    padding: 1rem 0 0 5rem; 
+    align-self: flex-end;
+}
+
+.follow-us h6 {
+    padding-bottom: 1rem;
+}
