@@ -16,3 +16,24 @@
     margin: -7.5rem -7rem -2rem -7rem;
 
 }
+
+@media screen and (max-width: 850px) {
+    .flower-bouquet {
+        margin: -6rem -7rem -2rem -7rem;
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .flower-bouquet {
+        display: none;
+    }
+    .our-services-title {
+        padding-bottom: 5rem;
+    }
+    #our-services-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

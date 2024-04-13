@@ -39,3 +39,15 @@
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+    #hero-section {
+        display: block;
+    }
+    #hero-section .img-container {
+        display: none;
+    }
+    #hero-section .text-container {
+        width: 100%;
+    }
+}

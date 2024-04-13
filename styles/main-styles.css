@@ -82,6 +82,12 @@
 	grid-template-columns: auto auto auto;
 }
 
+@media screen and (max-width: 850px) {
+    .grid-3-col {
+        gap: 3rem;
+    }
+}
+
 .grid-column-3 {
 	grid-column: span 3;
 }

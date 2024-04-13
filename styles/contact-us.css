@@ -39,3 +39,13 @@
 .follow-us h6 {
     padding-bottom: 1rem;
 }
+
+
+@media screen and (max-width: 480px) {
+    #contact-us-left {
+        display: none;
+    }
+    #contact-us-right {
+        width: 100%;
+    }
+}
