@@ -18,13 +18,6 @@
 	height: calc(100vh - 9rem);
 }
 
-.hero-img-div {
-    background-image: url('../assets/imgs/hero-section.png');
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
-    max-width: 100%;
-}
-
 .hero-title {
     line-height: 5.7rem;
     letter-spacing: -0.15rem;
@@ -40,4 +33,9 @@
 
 .hero-svg {
     color: var(--light-grey);
+}
+
+.hero-img {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }

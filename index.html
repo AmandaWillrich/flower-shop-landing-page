@@ -7,14 +7,14 @@
 	<title>Encanto Verde</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"rel="stylesheet">
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-	<nav class="nav-bar pl-20 pr-20 flex f-justify-space-between f-align-center">
+<body class="relative">
+	<!-- <a id="home-btn" class="absolute" href="#">APERTE</a> -->
+	<nav class="pl-10 nav-bar flex f-justify-space-between f-align-center gap-4">
 		<div>
 			<svg id="logo" class="logo-svg" data-name="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570.12911 788.14842">
 				<g id="Camada_1-2" data-name="logo 1">
@@ -37,10 +37,10 @@
 		<div></div>
 	</nav>
 
-	<section id="hero-section" class="flex f-align-center">
-		<div class="text-container width-53">
+	<section id="hero-section" class="flex f-align-center f-justify-center">
+		<div class="text-container width-50 hero-section-height-100 flex f-align-center">
 			<div class="pl-20 pr-20">
-				<h1 class="hero-title bold-900 pb-30">Apaixonados por trazer<br />a natureza para dentro<br />dos lares</h1>
+				<h1 class="hero-title bold-900 pb-30">Apaixonados por trazer a natureza para dentro dos lares</h1>
 				<p class="font-20 pb-10">Inscreva-se em nossa newsletter</p>
 				<div class="flex">
 					<input id="hero-email-input" class="hero-email-input font-20" type="email" placeholder="Digite seu e-mail" />
@@ -52,12 +52,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="img-container width-47">
-			<div class="hero-img-div hero-section-height-100">
-			</div>
+		<div class="img-container">
+			<img class="width-50 half-img hero-img hero-section-height-100" src="assets/imgs/hero-section-1.png" alt="Mulher trabalhando em floricultura">
 		</div>
 	</section>
-	<section id="our-services" class="height-100 pl-20 pr-20">
+	<section id="our-services" class="height-100 pl-10 pr-10">
 		<h2 class="our-services-title bold-700 text-center">Nossos Serviços</h2>
 		<div class="grid grid-3-co text-center">
 			<div class="card-info center-item">
@@ -89,7 +88,7 @@
 				</p>
 			</div>
 			<div class="grid-row-3">
-				<img style="margin-top: -75px; margin-bottom: -20px;" class="drop-shadow" src="assets/imgs/flower-bouquet.png" width="500px" alt="Flower Bouquet">
+				<img class="drop-shadow flower-bouquet" src="assets/imgs/flower-bouquet.png" width="500px" alt="Flower Bouquet">
 			</div>
 			<div class="card-info center-item">
 				<svg id="maintenance" class="svg-icon" data-name="maintenance" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 219.49834 212.60497">
@@ -172,7 +171,7 @@
 	</section>
 	<section id="our-clients" class="height-100">
 		<h2 class="our-clients-title bold-700 text-center">Nossos Clientes</h2>
-		<div id="testimonials" class="flex text-center f-justify-space-between gap-7 pl-20 pr-20 pb-30">
+		<div id="testimonials" class="flex text-center f-justify-center f-wrap gap-7">
 			<div>
 				<img class="avatar" src="./assets/imgs/avatar-1.png" alt="Costumer">
 				<h6 class="costumer-name big">Maria, São Paulo</h6>
@@ -199,10 +198,11 @@
 		</div>
 	</section>
 	<section id="contact-us" class="height-100 flex">
-		<div id="contact-us-left" class="width-53 flex f-justify-center f-align-center">
-			<div class="salmon-rectangle"></div>
+		<div id="contact-us-left" class="width-50 flex f-justify-center relative f-align-center">
+			<img class="half-img contact-us-img width-50 f-align-self" src="assets/imgs/contact-us-img.png" alt="Foto de uma folhagem">
+			<div class="salmon-rectangle absolute"></div>
 		</div>
-		<div id="contact-us-right" class="width-47 pl-20 pr-20">
+		<div id="contact-us-right" class="width-50 pl-10 pr-10">
 			<form class="contact-form flex f-column gap-4" action="submit">
 				<div class="follow-us">
 					<h6>Siga nossas redes:</h6>
