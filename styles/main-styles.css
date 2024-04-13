@@ -189,6 +189,10 @@ p.big {
 	filter: drop-shadow(#868e96 0.2rem 0 0.4rem)
 }
 
+.hidden {
+	display: block;
+}
+
 /* COLORS */
 .svg-icon {
 	width: 5rem;

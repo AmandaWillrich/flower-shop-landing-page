@@ -1,9 +1,11 @@
 footer {
+    display: flex;
     background-color: var(--main-green);
     height: 8rem;
 }
 
 footer h6 {
+    align-content: center;
     color: var(--light-grey);
-    padding: 3rem 5rem;
+    padding-left: 3rem;
 }
