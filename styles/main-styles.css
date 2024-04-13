@@ -1,6 +1,3 @@
-* {
-	--bs-gutter-x: 0;
-}
 /* POSITIONS */
 .absolute {
 	position: absolute;
@@ -61,7 +58,7 @@
 	justify-content: space-between;
 }
 
-.f-align-self {
+.f-align-self-end {
 	align-self: flex-end;
 }
 

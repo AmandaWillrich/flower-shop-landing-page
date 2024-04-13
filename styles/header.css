@@ -2,16 +2,11 @@
 	height: 9rem;
 }
 
-.nav-item {
-	margin-right: 4rem;
-}
-
 .logo-svg {
 	width: 4rem;
 }
 
 .nav-item a {
-	padding: 1rem 0 1rem 0;
 	text-decoration: none;
 	position: relative;
 }
@@ -34,4 +29,29 @@
 
 .nav-item:hover {
 	opacity: 0.8;
+}
+
+@media screen and  (max-width: 850px) {
+  #nav-logo {
+    padding-left: 5%;
+}
+}
+
+@media screen and (max-width: 480px) {
+  #nav-logo {
+      display: none;
+  }
+  .hidden-div,
+  .nav-item {
+      display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .burger-menu {
+    display: none;
+  }
 }

@@ -14,8 +14,8 @@
 
 <body class="relative">
 	<!-- <a id="home-btn" class="absolute" href="#">APERTE</a> -->
-	<nav class="pl-10 nav-bar flex f-justify-space-between f-align-center gap-4">
-		<div>
+	<nav class="nav-bar flex f-justify-space-between f-align-center gap-4">
+		<div id="nav-logo" class="pl-10">
 			<svg id="logo" class="logo-svg" data-name="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570.12911 788.14842">
 				<g id="Camada_1-2" data-name="logo 1">
 					<g>
@@ -29,12 +29,13 @@
 				</g>
 			</svg>
 		</div>
-		<ul class="nav-list flex f-justify-center height-9 f-align-center">
+		<ul class="nav-list flex f-justify-center height-9 f-align-center gap-4">
+			<li class="burger-menu"><a href="">menu</a></li>
 			<li class="nav-item"><a href="#our-services">Nossos Serviços</a></li>
 			<li class="nav-item"><a href="#our-clients">Nossos Clientes</a></li>
 			<li class="nav-item"><a href="#contact-us">Entre em Contato</a></li>
 		</ul>
-		<div></div>
+		<div class="hidden-div"></div>
 	</nav>
 
 	<section id="hero-section" class="flex f-align-center f-justify-center">
@@ -199,7 +200,7 @@
 	</section>
 	<section id="contact-us" class="height-100 flex">
 		<div id="contact-us-left" class="width-50 flex f-justify-center relative f-align-center">
-			<img class="half-img contact-us-img width-50 f-align-self" src="assets/imgs/contact-us-img.png" alt="Foto de uma folhagem">
+			<img class="half-img contact-us-img width-50 f-align-self-end" src="assets/imgs/contact-us-img.png" alt="Foto de uma folhagem">
 			<div class="salmon-rectangle absolute"></div>
 		</div>
 		<div id="contact-us-right" class="width-50 pl-10 pr-10">

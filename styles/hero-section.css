@@ -40,6 +40,23 @@
     border-bottom-left-radius: 2rem;
 }
 
+@media screen and (max-width: 850px) {
+    .text-container>div {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .hero-title {
+        font-size: 4.883rem;
+    }
+}
+
+@media screen and (max-width: 600) {
+    #hero-section .img-container {
+        margin-right: -200rem;
+    }
+}
+
 @media screen and (max-width: 480px) {
     #hero-section {
         display: block;
@@ -49,5 +66,8 @@
     }
     #hero-section .text-container {
         width: 100%;
+    }
+    #hero-email-input {
+        max-width: 60%
     }
 }
