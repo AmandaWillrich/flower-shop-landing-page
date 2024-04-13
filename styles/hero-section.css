@@ -2,10 +2,12 @@
     background: linear-gradient(0deg, rgba(226,230,215,1) 0%, rgba(248,249,250,1) 40%);
     padding-bottom: 5rem;
 }
-
+#hero-input {
+    width: 80%;
+}
 .hero-email-input {
     padding: 0.8rem 1.6rem;
-    width: 75%;
+    width: 100%;
     border: solid 0.2rem var(--main-green);
     border-right: none;
     border-top-left-radius: 0.7rem;
@@ -49,11 +51,8 @@
     .hero-title {
         font-size: 4.883rem;
     }
-}
-
-@media screen and (max-width: 600) {
-    #hero-section .img-container {
-        margin-right: -200rem;
+    #hero-input {
+        width: 90%;
     }
 }
 
@@ -66,8 +65,5 @@
     }
     #hero-section .text-container {
         width: 100%;
-    }
-    #hero-email-input {
-        max-width: 60%
     }
 }

@@ -50,3 +50,13 @@
 .call-to-action-subtitle {
     padding-bottom: 3rem;
 }
+
+
+@media screen and (max-width: 480px) {
+    .call-to-action-title {
+        font-size: 3.906rem; ;
+    }
+    .call-to-action-subtitle {
+        font-size: 3.125rem;
+    }
+}
