@@ -9,6 +9,7 @@
 .nav-item a {
 	text-decoration: none;
 	position: relative;
+  padding-bottom: 1rem;
 }
 
 .nav-item a::before {
